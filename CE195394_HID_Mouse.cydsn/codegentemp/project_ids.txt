@@ -1,0 +1,7 @@
+C:\Users\aztec\OneDrive\Documents\PSoC Creator\test2\CE195394_HID_Mouse\CE195394_HID_Mouse.cydsn\CE195394_HID_Mouse.cyprj|ecde68a6-a083-4af6-8618-c8a9efb16f95
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|e93cb7d8-02bd-4679-84d6-3c5af75590e2
+C:\Users\aztec\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|058c9a99-dbde-4e91-a96a-d47fd4914f63
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|a1ece752-b828-4f94-80d1-0e242692b647
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|fe90d19c-5ec6-47b4-94b4-439cae75a1ac
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|8a0ecbc7-eb02-4eed-926f-bd06d20131be
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyReferenceLibrary\CyReferenceLibrary.cylib\CyReferenceLibrary.cyprj|9cb59aef-a8c5-44ca-825b-37b7ca6d9512
