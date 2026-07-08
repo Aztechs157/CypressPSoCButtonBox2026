@@ -13,7 +13,7 @@
 <v>Output</v>
 </TreeKeys>
 <TreeStates>
-<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="CE195394_HID_Mouse\HIDJoystick\Generated_Source\PSoC5\cymetadata.c">
+<CyGuid_2a325b3b-c96a-4e9f-b7a0-2c44ecb5f237 type_name="CyDesigner.Common.Base.Controls.CyTreeViewState" version="1" SelectedNodeId="">
 <ExpandedNodeIds>
 <v>CE195394_HID_Mouse</v>
 <v>CE195394_HID_Mouse\HIDJoystick</v>
@@ -164,6 +164,52 @@
 <VisibleNodeIds>
 <v>CE195394_HID_Mouse</v>
 <v>CE195394_HID_Mouse\HIDJoystick</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_1.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_2.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_3.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_4.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_5.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\BTN_6.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\Cm3Start.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\cy_em_eeprom.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\CyBootAsmGnu.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\CyDmac.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\cyfitter_cfg.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\CyFlash.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\CyLib.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\cymetadata.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\cyPm.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\CySpc.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\cyutils.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\main.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_A.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_B.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_C.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\SW_D.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_audio.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_boot.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_cdc.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_cls.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_descr.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_Dm.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_Dp.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_drv.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_episr.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_hid.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_midi.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_msc.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_pm.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_std.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\Listing Files\USBFS_1_vnd.lst</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\HIDJoystick.elf</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\HIDJoystick.hex</v>
+<v>CE195394_HID_Mouse\HIDJoystick\CortexM3\ARM_GCC_541\Debug\HIDJoystick.map</v>
+<v>CE195394_HID_Mouse\HIDJoystick\HIDJoystick.gpdsc</v>
 <v>CE195394_HID_Mouse\HIDJoystick\HIDJoystick.rpt</v>
 <v>CE195394_HID_Mouse\HIDJoystick\HIDJoystick_timing.html</v>
 </VisibleNodeIds>
