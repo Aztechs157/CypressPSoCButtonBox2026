@@ -1,6 +1,16 @@
 # HIDJoystick
-# 2026-07-07 17:36:57Z
+# 2026-07-08 05:56:21Z
 
+set_io "BTN_5(0)" iocell 3 5
+set_io "BTN_4(0)" iocell 3 4
 set_io "\USBFS_1:Dm(0)\" iocell 15 7
 set_io "\USBFS_1:Dp(0)\" iocell 15 6
+set_io "BTN_3(0)" iocell 3 3
+set_io "BTN_2(0)" iocell 3 2
+set_io "BTN_1(0)" iocell 3 1
+set_io "SW_D(0)" iocell 1 7
+set_io "SW_C(0)" iocell 1 6
+set_io "SW_B(0)" iocell 1 5
+set_io "SW_A(0)" iocell 3 0
+set_io "BTN_6(0)" iocell 3 6
 set_location "\USBFS_1:USB\" usbcell -1 -1 0

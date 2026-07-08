@@ -18,21 +18,12 @@
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\cyfitteriar.inc" value="HEADER;;;;;" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\cyfitter.h" value="HEADER;;;;;" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\cydisabledsheets.h" value="HEADER;;;;;" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C1_aliases.h" value="HEADER;;;;;C1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C1.c" value="SOURCE_C;CortexM3;;;;C1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C1.h" value="HEADER;;;;;C1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C2_aliases.h" value="HEADER;;;;;C2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C2.c" value="SOURCE_C;CortexM3;;;;C2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C2.h" value="HEADER;;;;;C2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C3_aliases.h" value="HEADER;;;;;C3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C3.c" value="SOURCE_C;CortexM3;;;;C3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C3.h" value="HEADER;;;;;C3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C4_aliases.h" value="HEADER;;;;;C4" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C4.c" value="SOURCE_C;CortexM3;;;;C4" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C4.h" value="HEADER;;;;;C4" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1.c" value="SOURCE_C;CortexM3;;;;LCD_Char_1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1.h" value="HEADER;;;;;LCD_Char_1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1_PM.c" value="SOURCE_C;CortexM3;;;;LCD_Char_1" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_5_aliases.h" value="HEADER;;;;;BTN_5" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_5.c" value="SOURCE_C;CortexM3;;;;BTN_5" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_5.h" value="HEADER;;;;;BTN_5" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_4_aliases.h" value="HEADER;;;;;BTN_4" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_4.c" value="SOURCE_C;CortexM3;;;;BTN_4" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_4.h" value="HEADER;;;;;BTN_4" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1.c" value="SOURCE_C;CortexM3;;;;USBFS_1" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1.h" value="HEADER;;;;;USBFS_1" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_audio.c" value="SOURCE_C;CortexM3;;;;USBFS_1" />
@@ -56,54 +47,30 @@
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_cydmac.h" value="HEADER;;;;;USBFS_1" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_msc.c" value="SOURCE_C;CortexM3;;;;USBFS_1" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_msc.h" value="HEADER;;;;;USBFS_1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C5_aliases.h" value="HEADER;;;;;C5" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C5.c" value="SOURCE_C;CortexM3;;;;C5" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\C5.h" value="HEADER;;;;;C5" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AP_aliases.h" value="HEADER;;;;;AP" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AP.c" value="SOURCE_C;CortexM3;;;;AP" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AP.h" value="HEADER;;;;;AP" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AL_aliases.h" value="HEADER;;;;;AL" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AL.c" value="SOURCE_C;CortexM3;;;;AL" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AL.h" value="HEADER;;;;;AL" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AH_aliases.h" value="HEADER;;;;;AH" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AH.c" value="SOURCE_C;CortexM3;;;;AH" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\AH.h" value="HEADER;;;;;AH" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW1_aliases.h" value="HEADER;;;;;SW1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW1.c" value="SOURCE_C;CortexM3;;;;SW1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW1.h" value="HEADER;;;;;SW1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4L_aliases.h" value="HEADER;;;;;R4L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4L.c" value="SOURCE_C;CortexM3;;;;R4L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4L.h" value="HEADER;;;;;R4L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3L_aliases.h" value="HEADER;;;;;R3L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3L.c" value="SOURCE_C;CortexM3;;;;R3L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3L.h" value="HEADER;;;;;R3L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4R_aliases.h" value="HEADER;;;;;R4R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4R.c" value="SOURCE_C;CortexM3;;;;R4R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R4R.h" value="HEADER;;;;;R4R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3R_aliases.h" value="HEADER;;;;;R3R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3R.c" value="SOURCE_C;CortexM3;;;;R3R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R3R.h" value="HEADER;;;;;R3R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2R_aliases.h" value="HEADER;;;;;R2R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2R.c" value="SOURCE_C;CortexM3;;;;R2R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2R.h" value="HEADER;;;;;R2R" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2L_aliases.h" value="HEADER;;;;;R2L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2L.c" value="SOURCE_C;CortexM3;;;;R2L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R2L.h" value="HEADER;;;;;R2L" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R1_aliases.h" value="HEADER;;;;;R1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R1.c" value="SOURCE_C;CortexM3;;;;R1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\R1.h" value="HEADER;;;;;R1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U3_aliases.h" value="HEADER;;;;;U3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U3.c" value="SOURCE_C;CortexM3;;;;U3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U3.h" value="HEADER;;;;;U3" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U1_aliases.h" value="HEADER;;;;;U1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U1.c" value="SOURCE_C;CortexM3;;;;U1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U1.h" value="HEADER;;;;;U1" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U2_aliases.h" value="HEADER;;;;;U2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U2.c" value="SOURCE_C;CortexM3;;;;U2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\U2.h" value="HEADER;;;;;U2" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1_LCDPort_aliases.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1_LCDPort.c" value="SOURCE_C;CortexM3;;;;LCD_Char_1_LCDPort" />
-  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\LCD_Char_1_LCDPort.h" value="HEADER;;;;;LCD_Char_1_LCDPort" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_3_aliases.h" value="HEADER;;;;;BTN_3" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_3.c" value="SOURCE_C;CortexM3;;;;BTN_3" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_3.h" value="HEADER;;;;;BTN_3" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_2_aliases.h" value="HEADER;;;;;BTN_2" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_2.c" value="SOURCE_C;CortexM3;;;;BTN_2" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_2.h" value="HEADER;;;;;BTN_2" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_1_aliases.h" value="HEADER;;;;;BTN_1" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_1.c" value="SOURCE_C;CortexM3;;;;BTN_1" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_1.h" value="HEADER;;;;;BTN_1" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_D_aliases.h" value="HEADER;;;;;SW_D" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_D.c" value="SOURCE_C;CortexM3;;;;SW_D" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_D.h" value="HEADER;;;;;SW_D" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_C_aliases.h" value="HEADER;;;;;SW_C" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_C.c" value="SOURCE_C;CortexM3;;;;SW_C" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_C.h" value="HEADER;;;;;SW_C" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_B_aliases.h" value="HEADER;;;;;SW_B" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_B.c" value="SOURCE_C;CortexM3;;;;SW_B" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_B.h" value="HEADER;;;;;SW_B" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_A_aliases.h" value="HEADER;;;;;SW_A" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_A.c" value="SOURCE_C;CortexM3;;;;SW_A" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\SW_A.h" value="HEADER;;;;;SW_A" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_6_aliases.h" value="HEADER;;;;;BTN_6" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_6.c" value="SOURCE_C;CortexM3;;;;BTN_6" />
+  <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\BTN_6.h" value="HEADER;;;;;BTN_6" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_Dm_aliases.h" value="HEADER;;;;;USBFS_1_Dm" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_Dm.c" value="SOURCE_C;CortexM3;;;;USBFS_1_Dm" />
   <file name="C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\codegentemp\USBFS_1_Dm.h" value="HEADER;;;;;USBFS_1_Dm" />

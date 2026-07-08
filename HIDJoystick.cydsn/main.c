@@ -13,7 +13,7 @@
 void StartUp (void);
 void ReadButtons (void);
 void setBit(uint8, uint8);
-static int8 Joystick_Data[3] = {0, 0, 0};
+static int8 Joystick_Data[2] = {0, 0};
 static unsigned char Buttons1;
 static unsigned char Buttons2;
 static unsigned char Buttons3;
@@ -35,11 +35,8 @@ int main(void)
  CyDelay(10);
  Joystick_Data[0] = Buttons1;
  Joystick_Data[1] = Buttons2;
- Joystick_Data[2] = Buttons3;
-
  /* Loads EP1 for a IN transfer to PC */
- USBFS_1_LoadInEP(
- 1, (uint8 *)Joystick_Data, 3);
+ USBFS_1_LoadInEP(1, (uint8 *)Joystick_Data, 2);
  }
 }
 void StartUp (void)
@@ -50,30 +47,21 @@ void StartUp (void)
  /* Waits for configuration data from host */
  while(!USBFS_1_bGetConfiguration());
  /* Begins initial communication with PC */
- USBFS_1_LoadInEP(
- 1, (uint8 *)Joystick_Data, 3);
+ USBFS_1_LoadInEP(1, (uint8 *)Joystick_Data, 2);
 }
 void ReadButtons (void)
 {
-    setBit(0, !C1_Read());
-    setBit(1, !C2_Read());
-    setBit(2, !C3_Read());
-    setBit(3, !C4_Read());
-    setBit(4, !C5_Read());
-    setBit(5, SW1_Read());
-    setBit(6, !R4L_Read());
-    setBit(7, !R4R_Read());
-    setBit(8, !R3L_Read());
-    setBit(9, !R3R_Read());
-    setBit(10, !R2L_Read());
-    setBit(11, !R2R_Read());
-    setBit(12, !R1_Read());
-    setBit(13, !AH_Read());
-    setBit(14, !AL_Read());
-    setBit(15, !AP_Read());
-    setBit(16, !U1_Read());
-    setBit(17, !U2_Read());
-    setBit(18, !U3_Read());
+    /* Active low — switch/button closes pin to GND; pull-up reads 0 when pressed, inverted to 1 */
+    setBit(0, !SW_A_Read());
+    setBit(1, !SW_B_Read());
+    setBit(2, !SW_C_Read());
+    setBit(3, !SW_D_Read());
+    setBit(4, !BTN_1_Read());
+    setBit(5, !BTN_2_Read());
+    setBit(6, !BTN_3_Read());
+    setBit(7, !BTN_4_Read());
+    setBit(8, !BTN_5_Read());
+    setBit(9, !BTN_6_Read());
 }
 
 void setBit(uint8 bitNum, uint8 pinRead) {

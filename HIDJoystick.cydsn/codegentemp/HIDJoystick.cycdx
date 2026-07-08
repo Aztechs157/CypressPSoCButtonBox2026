@@ -1,24 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <blockRegMap version="1" xmlns:xsi="http://www.w3.org/2001/XMLSchema-instance" xsi:schemaLocation="http://cypress.com/xsd/cyblockregmap cyblockregmap.xsd" xmlns="http://cypress.com/xsd/cyblockregmap">
-  <block name="R2R" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R2L" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R3R" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R3L" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R4R" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_A" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_B" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_C" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="Em_EEPROM_Dynamic" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="U2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="U3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="U1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="R4L" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="C4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="LCD_Char_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false">
-    <block name="LCDPort" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  </block>
-  <block name="C3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="C1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="C2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="cy_boot" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_6" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="SW_D" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
   <block name="USBFS_1" BASE="0x0" SIZE="0x0" desc="USBFS" visible="true" hidden="false">
     <block name="VirtualMux_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
     <block name="ZeroTerminal_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
@@ -873,9 +861,9 @@
       <field name="RA9" from="0" to="0" access="RW" resetVal="" desc="Read Address for EP MSB." hidden="false" />
     </register>
   </block>
-  <block name="AH" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="SW1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="AL" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="C5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
-  <block name="AP" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_4" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_5" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_1" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_2" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
+  <block name="BTN_3" BASE="0x0" SIZE="0x0" desc="" visible="true" hidden="false" />
 </blockRegMap>
