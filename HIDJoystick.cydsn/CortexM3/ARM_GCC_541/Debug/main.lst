@@ -1,4 +1,4 @@
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 1
 
 
    1              		.syntax unified
@@ -58,7 +58,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
   28:main.c        **** 
   29:main.c        ****     StartUp();
   30:main.c        ****  for(;;)
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 2
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 2
 
 
   31:main.c        ****  {
@@ -118,7 +118,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
   53:main.c        ****  LCD_Char_1_PrintString("Joystick Demo");
   60              		.loc 1 53 0
   61 001e 0948     		ldr	r0, .L4+4
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 3
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 3
 
 
   62 0020 FFF7FEFF 		bl	LCD_Char_1_PrintString
@@ -178,7 +178,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
   71:main.c        ****     setBit(7, !R4R_Read());
   72:main.c        ****     setBit(8, !R3L_Read());
   73:main.c        ****     setBit(9, !R3R_Read());
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 4
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 4
 
 
   74:main.c        ****     setBit(10, !R2L_Read());
@@ -238,7 +238,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
   95:main.c        ****     else if (bitNum < 16) {
  132              		.loc 1 95 0
  133 0028 0F28     		cmp	r0, #15
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 5
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 5
 
 
  134 002a 13D8     		bhi	.L10
@@ -298,7 +298,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  176 0062 5A79     		ldrb	r2, [r3, #5]	@ zero_extendqisi2
  177 0064 1043     		orrs	r0, r0, r2
  178 0066 5871     		strb	r0, [r3, #5]
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 6
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 6
 
 
  179 0068 7047     		bx	lr
@@ -358,7 +358,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  227 001c 0120     		movs	r0, #1
  228 001e FFF7FEFF 		bl	setBit
  229              	.LVL27:
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 7
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 7
 
 
   66:main.c        ****     setBit(3, !C4_Read());
@@ -418,7 +418,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  277              		.loc 1 72 0
  278 007e FFF7FEFF 		bl	R3L_Read
  279              	.LVL40:
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 8
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 8
 
 
  280 0082 B0FA80F1 		clz	r1, r0
@@ -478,7 +478,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  328 00e2 B0FA80F1 		clz	r1, r0
  329 00e6 4909     		lsrs	r1, r1, #5
  330 00e8 0E20     		movs	r0, #14
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 9
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 9
 
 
  331 00ea FFF7FEFF 		bl	setBit
@@ -538,7 +538,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  380              		@ args = 0, pretend = 0, frame = 0
  381              		@ frame_needed = 0, uses_anonymous_args = 0
  382 0000 08B5     		push	{r3, lr}
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 10
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 10
 
 
  383              		.cfi_def_cfa_offset 8
@@ -598,7 +598,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  427              	.L22:
  428              		.align	2
  429              	.L21:
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 11
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 11
 
 
  430 0034 00000000 		.word	.LANCHOR0
@@ -658,7 +658,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  478              		.file 18 "Generated_Source\\PSoC5/R2R.h"
  479              		.file 19 "Generated_Source\\PSoC5/R1.h"
  480              		.file 20 "Generated_Source\\PSoC5/AH.h"
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 12
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 12
 
 
  481              		.file 21 "Generated_Source\\PSoC5/AL.h"
@@ -675,29 +675,29 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  492 0006 00000000 		.4byte	.Ldebug_abbrev0
  493 000a 04       		.byte	0x4
  494 000b 01       		.uleb128 0x1
- 495 000c EF010000 		.4byte	.LASF54
+ 495 000c EC010000 		.4byte	.LASF54
  496 0010 0C       		.byte	0xc
- 497 0011 BB020000 		.4byte	.LASF55
- 498 0015 48010000 		.4byte	.LASF56
+ 497 0011 B8020000 		.4byte	.LASF55
+ 498 0015 64000000 		.4byte	.LASF56
  499 0019 00000000 		.4byte	.Ldebug_ranges0+0
  500 001d 00000000 		.4byte	0
  501 0021 00000000 		.4byte	.Ldebug_line0
  502 0025 02       		.uleb128 0x2
  503 0026 01       		.byte	0x1
  504 0027 06       		.byte	0x6
- 505 0028 18030000 		.4byte	.LASF0
+ 505 0028 15030000 		.4byte	.LASF0
  506 002c 02       		.uleb128 0x2
  507 002d 01       		.byte	0x1
  508 002e 08       		.byte	0x8
- 509 002f 1E010000 		.4byte	.LASF1
+ 509 002f 6A010000 		.4byte	.LASF1
  510 0033 02       		.uleb128 0x2
  511 0034 02       		.byte	0x2
  512 0035 05       		.byte	0x5
- 513 0036 EF020000 		.4byte	.LASF2
+ 513 0036 EC020000 		.4byte	.LASF2
  514 003a 02       		.uleb128 0x2
  515 003b 02       		.byte	0x2
  516 003c 07       		.byte	0x7
- 517 003d E5000000 		.4byte	.LASF3
+ 517 003d 31010000 		.4byte	.LASF3
  518 0041 03       		.uleb128 0x3
  519 0042 49000000 		.4byte	.LASF9
  520 0046 02       		.byte	0x2
@@ -706,22 +706,22 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  523 004c 02       		.uleb128 0x2
  524 004d 04       		.byte	0x4
  525 004e 05       		.byte	0x5
- 526 004f 07030000 		.4byte	.LASF4
+ 526 004f 04030000 		.4byte	.LASF4
  527 0053 02       		.uleb128 0x2
  528 0054 04       		.byte	0x4
  529 0055 07       		.byte	0x7
- 530 0056 D3000000 		.4byte	.LASF5
+ 530 0056 1F010000 		.4byte	.LASF5
  531 005a 02       		.uleb128 0x2
  532 005b 08       		.byte	0x8
  533 005c 05       		.byte	0x5
- 534 005d AD020000 		.4byte	.LASF6
+ 534 005d AA020000 		.4byte	.LASF6
  535 0061 02       		.uleb128 0x2
  536 0062 08       		.byte	0x8
  537 0063 07       		.byte	0x7
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 13
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 13
 
 
- 538 0064 B9010000 		.4byte	.LASF7
+ 538 0064 B6010000 		.4byte	.LASF7
  539 0068 04       		.uleb128 0x4
  540 0069 04       		.byte	0x4
  541 006a 05       		.byte	0x5
@@ -729,19 +729,19 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  543 006f 02       		.uleb128 0x2
  544 0070 04       		.byte	0x4
  545 0071 07       		.byte	0x7
- 546 0072 AC010000 		.4byte	.LASF8
+ 546 0072 A9010000 		.4byte	.LASF8
  547 0076 03       		.uleb128 0x3
- 548 0077 E7020000 		.4byte	.LASF10
+ 548 0077 E4020000 		.4byte	.LASF10
  549 007b 03       		.byte	0x3
  550 007c 2C       		.byte	0x2c
  551 007d 41000000 		.4byte	0x41
  552 0081 05       		.uleb128 0x5
- 553 0082 F9020000 		.4byte	.LASF11
+ 553 0082 F6020000 		.4byte	.LASF11
  554 0086 04       		.byte	0x4
  555 0087 E901     		.2byte	0x1e9
  556 0089 2C000000 		.4byte	0x2c
  557 008d 05       		.uleb128 0x5
- 558 008e 97010000 		.4byte	.LASF12
+ 558 008e 94010000 		.4byte	.LASF12
  559 0092 04       		.byte	0x4
  560 0093 EC01     		.2byte	0x1ec
  561 0095 25000000 		.4byte	0x25
@@ -752,21 +752,21 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  566 00a0 02       		.uleb128 0x2
  567 00a1 08       		.byte	0x8
  568 00a2 04       		.byte	0x4
- 569 00a3 2C010000 		.4byte	.LASF14
+ 569 00a3 78010000 		.4byte	.LASF14
  570 00a7 02       		.uleb128 0x2
  571 00a8 01       		.byte	0x1
  572 00a9 08       		.byte	0x8
- 573 00aa C2020000 		.4byte	.LASF15
+ 573 00aa BF020000 		.4byte	.LASF15
  574 00ae 02       		.uleb128 0x2
  575 00af 08       		.byte	0x8
  576 00b0 04       		.byte	0x4
- 577 00b1 7E000000 		.4byte	.LASF16
+ 577 00b1 CA000000 		.4byte	.LASF16
  578 00b5 02       		.uleb128 0x2
  579 00b6 04       		.byte	0x4
  580 00b7 07       		.byte	0x7
- 581 00b8 8E020000 		.4byte	.LASF17
+ 581 00b8 8B020000 		.4byte	.LASF17
  582 00bc 06       		.uleb128 0x6
- 583 00bd 24030000 		.4byte	.LASF18
+ 583 00bd 21030000 		.4byte	.LASF18
  584 00c1 01       		.byte	0x1
  585 00c2 2E       		.byte	0x2e
  586 00c3 00000000 		.4byte	.LFB64
@@ -778,7 +778,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  592 00d2 08000000 		.4byte	.LVL0
  593 00d6 A3040000 		.4byte	0x4a3
  594 00da 08       		.uleb128 0x8
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 14
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 14
 
 
  595 00db 10000000 		.4byte	.LVL1
@@ -838,7 +838,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  649 0141 50010000 		.4byte	0x150
  650 0145 09       		.uleb128 0x9
  651 0146 01       		.uleb128 0x1
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 15
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 15
 
 
  652 0147 50       		.byte	0x50
@@ -875,7 +875,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  683 0175 00       		.byte	0
  684 0176 00       		.byte	0
  685 0177 06       		.uleb128 0x6
- 686 0178 2C030000 		.4byte	.LASF19
+ 686 0178 29030000 		.4byte	.LASF19
  687 017c 01       		.byte	0x1
  688 017d 55       		.byte	0x55
  689 017e 00000000 		.4byte	.LFB66
@@ -884,13 +884,13 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  692 0187 9C       		.byte	0x9c
  693 0188 A9010000 		.4byte	0x1a9
  694 018c 0B       		.uleb128 0xb
- 695 018d 33030000 		.4byte	.LASF20
+ 695 018d 30030000 		.4byte	.LASF20
  696 0191 01       		.byte	0x1
  697 0192 55       		.byte	0x55
  698 0193 81000000 		.4byte	0x81
  699 0197 00000000 		.4byte	.LLST0
  700 019b 0C       		.uleb128 0xc
- 701 019c A3000000 		.4byte	.LASF21
+ 701 019c EF000000 		.4byte	.LASF21
  702 01a0 01       		.byte	0x1
  703 01a1 55       		.byte	0x55
  704 01a2 81000000 		.4byte	0x81
@@ -898,10 +898,10 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  706 01a7 51       		.byte	0x51
  707 01a8 00       		.byte	0
  708 01a9 06       		.uleb128 0x6
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 16
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 16
 
 
- 709 01aa DB020000 		.4byte	.LASF22
+ 709 01aa D8020000 		.4byte	.LASF22
  710 01ae 01       		.byte	0x1
  711 01af 3E       		.byte	0x3e
  712 01b0 00000000 		.4byte	.LFB65
@@ -958,7 +958,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  763 0228 09       		.uleb128 0x9
  764 0229 01       		.uleb128 0x1
  765 022a 50       		.byte	0x50
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 17
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 17
 
 
  766 022b 01       		.uleb128 0x1
@@ -1018,7 +1018,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  820 029d 00       		.byte	0
  821 029e 07       		.uleb128 0x7
  822 029f 82000000 		.4byte	.LVL40
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 18
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 18
 
 
  823 02a3 40050000 		.4byte	0x540
@@ -1078,7 +1078,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  877 0318 CE000000 		.4byte	.LVL49
  878 031c 77010000 		.4byte	0x177
  879 0320 2A030000 		.4byte	0x32a
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 19
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 19
 
 
  880 0324 09       		.uleb128 0x9
@@ -1138,7 +1138,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  934 0396 50       		.byte	0x50
  935 0397 01       		.uleb128 0x1
  936 0398 40       		.byte	0x40
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 20
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 20
 
 
  937 0399 00       		.byte	0
@@ -1169,7 +1169,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  962 03cd 00       		.byte	0
  963 03ce 00       		.byte	0
  964 03cf 0D       		.uleb128 0xd
- 965 03d0 43010000 		.4byte	.LASF57
+ 965 03d0 8F010000 		.4byte	.LASF57
  966 03d4 01       		.byte	0x1
  967 03d5 17       		.byte	0x17
  968 03d6 68000000 		.4byte	0x68
@@ -1198,7 +1198,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  991 040e 1C000000 		.4byte	.LVL65
  992 0412 C5050000 		.4byte	0x5c5
  993 0416 20040000 		.4byte	0x420
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 21
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 21
 
 
  994 041a 09       		.uleb128 0x9
@@ -1236,7 +1236,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1026 044c 02       		.byte	0x2
  1027 044d 00       		.byte	0
  1028 044e 10       		.uleb128 0x10
- 1029 044f D8010000 		.4byte	.LASF23
+ 1029 044f D5010000 		.4byte	.LASF23
  1030 0453 01       		.byte	0x1
  1031 0454 11       		.byte	0x11
  1032 0455 3E040000 		.4byte	0x43e
@@ -1258,7 +1258,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1048 0477 2C000000 		.4byte	0x2c
  1049 047b 05       		.uleb128 0x5
  1050 047c 03       		.byte	0x3
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 22
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 22
 
 
  1051 047d 04000000 		.4byte	Buttons2
@@ -1271,25 +1271,25 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1058 048d 03       		.byte	0x3
  1059 048e 05000000 		.4byte	Buttons3
  1060 0492 11       		.uleb128 0x11
- 1061 0493 F8000000 		.4byte	.LASF58
+ 1061 0493 44010000 		.4byte	.LASF58
  1062 0497 1B       		.byte	0x1b
  1063 0498 1207     		.2byte	0x712
  1064 049a 9E040000 		.4byte	0x49e
  1065 049e 12       		.uleb128 0x12
  1066 049f 76000000 		.4byte	0x76
  1067 04a3 13       		.uleb128 0x13
- 1068 04a4 92000000 		.4byte	.LASF27
- 1069 04a8 92000000 		.4byte	.LASF27
+ 1068 04a4 DE000000 		.4byte	.LASF27
+ 1069 04a8 DE000000 		.4byte	.LASF27
  1070 04ac 05       		.byte	0x5
  1071 04ad 38       		.byte	0x38
  1072 04ae 13       		.uleb128 0x13
- 1073 04af C7020000 		.4byte	.LASF28
- 1074 04b3 C7020000 		.4byte	.LASF28
+ 1073 04af C4020000 		.4byte	.LASF28
+ 1074 04b3 C4020000 		.4byte	.LASF28
  1075 04b7 05       		.byte	0x5
  1076 04b8 3D       		.byte	0x3d
  1077 04b9 13       		.uleb128 0x13
- 1078 04ba AB000000 		.4byte	.LASF29
- 1079 04be AB000000 		.4byte	.LASF29
+ 1078 04ba F7000000 		.4byte	.LASF29
+ 1079 04be F7000000 		.4byte	.LASF29
  1080 04c2 05       		.byte	0x5
  1081 04c3 3C       		.byte	0x3c
  1082 04c4 14       		.uleb128 0x14
@@ -1298,27 +1298,27 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1085 04cd 06       		.byte	0x6
  1086 04ce 2D01     		.2byte	0x12d
  1087 04d0 14       		.uleb128 0x14
- 1088 04d1 05010000 		.4byte	.LASF31
- 1089 04d5 05010000 		.4byte	.LASF31
+ 1088 04d1 51010000 		.4byte	.LASF31
+ 1089 04d5 51010000 		.4byte	.LASF31
  1090 04d9 06       		.byte	0x6
  1091 04da 3001     		.2byte	0x130
  1092 04dc 14       		.uleb128 0x14
- 1093 04dd 7D020000 		.4byte	.LASF32
- 1094 04e1 7D020000 		.4byte	.LASF32
+ 1093 04dd 7A020000 		.4byte	.LASF32
+ 1094 04e1 7A020000 		.4byte	.LASF32
  1095 04e5 06       		.byte	0x6
  1096 04e6 3501     		.2byte	0x135
  1097 04e8 13       		.uleb128 0x13
- 1098 04e9 C2000000 		.4byte	.LASF33
- 1099 04ed C2000000 		.4byte	.LASF33
+ 1098 04e9 0E010000 		.4byte	.LASF33
+ 1099 04ed 0E010000 		.4byte	.LASF33
  1100 04f1 07       		.byte	0x7
  1101 04f2 29       		.byte	0x29
  1102 04f3 13       		.uleb128 0x13
- 1103 04f4 9C010000 		.4byte	.LASF34
- 1104 04f8 9C010000 		.4byte	.LASF34
+ 1103 04f4 99010000 		.4byte	.LASF34
+ 1104 04f8 99010000 		.4byte	.LASF34
  1105 04fc 08       		.byte	0x8
  1106 04fd 29       		.byte	0x29
  1107 04fe 13       		.uleb128 0x13
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 23
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 23
 
 
  1108 04ff 5C000000 		.4byte	.LASF35
@@ -1326,33 +1326,33 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1110 0507 09       		.byte	0x9
  1111 0508 29       		.byte	0x29
  1112 0509 13       		.uleb128 0x13
- 1113 050a 76000000 		.4byte	.LASF36
- 1114 050e 76000000 		.4byte	.LASF36
+ 1113 050a C2000000 		.4byte	.LASF36
+ 1114 050e C2000000 		.4byte	.LASF36
  1115 0512 0A       		.byte	0xa
  1116 0513 29       		.byte	0x29
  1117 0514 13       		.uleb128 0x13
- 1118 0515 3B010000 		.4byte	.LASF37
- 1119 0519 3B010000 		.4byte	.LASF37
+ 1118 0515 87010000 		.4byte	.LASF37
+ 1119 0519 87010000 		.4byte	.LASF37
  1120 051d 0B       		.byte	0xb
  1121 051e 29       		.byte	0x29
  1122 051f 13       		.uleb128 0x13
- 1123 0520 E6010000 		.4byte	.LASF38
- 1124 0524 E6010000 		.4byte	.LASF38
+ 1123 0520 E3010000 		.4byte	.LASF38
+ 1124 0524 E3010000 		.4byte	.LASF38
  1125 0528 0C       		.byte	0xc
  1126 0529 29       		.byte	0x29
  1127 052a 13       		.uleb128 0x13
- 1128 052b CA000000 		.4byte	.LASF39
- 1129 052f CA000000 		.4byte	.LASF39
+ 1128 052b 16010000 		.4byte	.LASF39
+ 1129 052f 16010000 		.4byte	.LASF39
  1130 0533 0D       		.byte	0xd
  1131 0534 29       		.byte	0x29
  1132 0535 13       		.uleb128 0x13
- 1133 0536 64000000 		.4byte	.LASF40
- 1134 053a 64000000 		.4byte	.LASF40
+ 1133 0536 B0000000 		.4byte	.LASF40
+ 1134 053a B0000000 		.4byte	.LASF40
  1135 053e 0E       		.byte	0xe
  1136 053f 29       		.byte	0x29
  1137 0540 13       		.uleb128 0x13
- 1138 0541 6D000000 		.4byte	.LASF41
- 1139 0545 6D000000 		.4byte	.LASF41
+ 1138 0541 B9000000 		.4byte	.LASF41
+ 1139 0545 B9000000 		.4byte	.LASF41
  1140 0549 0F       		.byte	0xf
  1141 054a 29       		.byte	0x29
  1142 054b 13       		.uleb128 0x13
@@ -1371,31 +1371,31 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1155 056a 12       		.byte	0x12
  1156 056b 29       		.byte	0x29
  1157 056c 13       		.uleb128 0x13
- 1158 056d D0010000 		.4byte	.LASF45
- 1159 0571 D0010000 		.4byte	.LASF45
+ 1158 056d CD010000 		.4byte	.LASF45
+ 1159 0571 CD010000 		.4byte	.LASF45
  1160 0575 13       		.byte	0x13
  1161 0576 29       		.byte	0x29
  1162 0577 13       		.uleb128 0x13
- 1163 0578 8A000000 		.4byte	.LASF46
- 1164 057c 8A000000 		.4byte	.LASF46
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 24
+ 1163 0578 D6000000 		.4byte	.LASF46
+ 1164 057c D6000000 		.4byte	.LASF46
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 24
 
 
  1165 0580 14       		.byte	0x14
  1166 0581 29       		.byte	0x29
  1167 0582 13       		.uleb128 0x13
- 1168 0583 A4010000 		.4byte	.LASF47
- 1169 0587 A4010000 		.4byte	.LASF47
+ 1168 0583 A1010000 		.4byte	.LASF47
+ 1169 0587 A1010000 		.4byte	.LASF47
  1170 058b 15       		.byte	0x15
  1171 058c 29       		.byte	0x29
  1172 058d 13       		.uleb128 0x13
- 1173 058e FF020000 		.4byte	.LASF48
- 1174 0592 FF020000 		.4byte	.LASF48
+ 1173 058e FC020000 		.4byte	.LASF48
+ 1174 0592 FC020000 		.4byte	.LASF48
  1175 0596 16       		.byte	0x16
  1176 0597 29       		.byte	0x29
  1177 0598 13       		.uleb128 0x13
- 1178 0599 10030000 		.4byte	.LASF49
- 1179 059d 10030000 		.4byte	.LASF49
+ 1178 0599 0D030000 		.4byte	.LASF49
+ 1179 059d 0D030000 		.4byte	.LASF49
  1180 05a1 17       		.byte	0x17
  1181 05a2 29       		.byte	0x29
  1182 05a3 13       		.uleb128 0x13
@@ -1404,18 +1404,18 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1185 05ac 18       		.byte	0x18
  1186 05ad 29       		.byte	0x29
  1187 05ae 13       		.uleb128 0x13
- 1188 05af 33010000 		.4byte	.LASF51
- 1189 05b3 33010000 		.4byte	.LASF51
+ 1188 05af 7F010000 		.4byte	.LASF51
+ 1189 05b3 7F010000 		.4byte	.LASF51
  1190 05b7 19       		.byte	0x19
  1191 05b8 29       		.byte	0x29
  1192 05b9 14       		.uleb128 0x14
- 1193 05ba 97020000 		.4byte	.LASF52
- 1194 05be 97020000 		.4byte	.LASF52
+ 1193 05ba 94020000 		.4byte	.LASF52
+ 1194 05be 94020000 		.4byte	.LASF52
  1195 05c2 06       		.byte	0x6
  1196 05c3 3C01     		.2byte	0x13c
  1197 05c5 13       		.uleb128 0x13
- 1198 05c6 3A030000 		.4byte	.LASF53
- 1199 05ca 3A030000 		.4byte	.LASF53
+ 1198 05c6 37030000 		.4byte	.LASF53
+ 1199 05ca 37030000 		.4byte	.LASF53
  1200 05ce 1A       		.byte	0x1a
  1201 05cf 76       		.byte	0x76
  1202 05d0 00       		.byte	0
@@ -1438,7 +1438,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1219 000e 01       		.uleb128 0x1
  1220 000f 10       		.uleb128 0x10
  1221 0010 17       		.uleb128 0x17
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 25
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 25
 
 
  1222 0011 00       		.byte	0
@@ -1498,7 +1498,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1276 0047 19       		.uleb128 0x19
  1277 0048 03       		.uleb128 0x3
  1278 0049 0E       		.uleb128 0xe
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 26
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 26
 
 
  1279 004a 3A       		.uleb128 0x3a
@@ -1558,7 +1558,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1333 008a 00       		.byte	0
  1334 008b 00       		.byte	0
  1335 008c 0B       		.uleb128 0xb
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 27
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 27
 
 
  1336 008d 05       		.uleb128 0x5
@@ -1618,7 +1618,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1390 00c5 01       		.uleb128 0x1
  1391 00c6 13       		.uleb128 0x13
  1392 00c7 00       		.byte	0
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 28
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 28
 
 
  1393 00c8 00       		.byte	0
@@ -1678,7 +1678,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1447 00fe 49       		.uleb128 0x49
  1448 00ff 13       		.uleb128 0x13
  1449 0100 00       		.byte	0
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 29
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 29
 
 
  1450 0101 00       		.byte	0
@@ -1738,7 +1738,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1504 0024 1C000000 		.4byte	.LVL11
  1505 0028 28000000 		.4byte	.LVL12
  1506 002c 0400     		.2byte	0x4
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 30
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 30
 
 
  1507 002e F3       		.byte	0xf3
@@ -1798,7 +1798,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1561 0018 00000000 		.4byte	.LFB66
  1562 001c 80000000 		.4byte	.LFE66-.LFB66
  1563 0020 00000000 		.4byte	.LFB65
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 31
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 31
 
 
  1564 0024 30010000 		.4byte	.LFE65-.LFB65
@@ -1858,7 +1858,7 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1599      65616400 
  1600              	.LASF9:
  1601 0049 5F5F696E 		.ascii	"__int32_t\000"
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 32
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 32
 
 
  1601      7433325F 
@@ -1870,225 +1870,225 @@ ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 1
  1604              	.LASF35:
  1605 005c 43335F52 		.ascii	"C3_Read\000"
  1605      65616400 
- 1606              	.LASF40:
- 1607 0064 5234525F 		.ascii	"R4R_Read\000"
- 1607      52656164 
- 1607      00
- 1608              	.LASF41:
- 1609 006d 52334C5F 		.ascii	"R3L_Read\000"
- 1609      52656164 
- 1609      00
- 1610              	.LASF36:
- 1611 0076 43345F52 		.ascii	"C4_Read\000"
- 1611      65616400 
- 1612              	.LASF16:
- 1613 007e 6C6F6E67 		.ascii	"long double\000"
- 1613      20646F75 
- 1613      626C6500 
- 1614              	.LASF46:
- 1615 008a 41485F52 		.ascii	"AH_Read\000"
- 1615      65616400 
- 1616              	.LASF27:
- 1617 0092 4C43445F 		.ascii	"LCD_Char_1_Start\000"
- 1617      43686172 
- 1617      5F315F53 
- 1617      74617274 
- 1617      00
- 1618              	.LASF21:
- 1619 00a3 70696E52 		.ascii	"pinRead\000"
- 1619      65616400 
- 1620              	.LASF29:
- 1621 00ab 4C43445F 		.ascii	"LCD_Char_1_PrintString\000"
- 1621      43686172 
- 1621      5F315F50 
- 1621      72696E74 
- 1621      53747269 
- 1622              	.LASF33:
- 1623 00c2 43315F52 		.ascii	"C1_Read\000"
- 1623      65616400 
- 1624              	.LASF39:
- 1625 00ca 52344C5F 		.ascii	"R4L_Read\000"
- 1625      52656164 
- 1625      00
- 1626              	.LASF5:
- 1627 00d3 6C6F6E67 		.ascii	"long unsigned int\000"
- 1627      20756E73 
- 1627      69676E65 
- 1627      6420696E 
- 1627      7400
- 1628              	.LASF3:
- 1629 00e5 73686F72 		.ascii	"short unsigned int\000"
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 33
+ 1606              	.LASF56:
+ 1607 0064 433A5C55 		.ascii	"C:\\Users\\funti\\Robotics Projects\\CypressPSoCBut"
+ 1607      73657273 
+ 1607      5C66756E 
+ 1607      74695C52 
+ 1607      6F626F74 
+ 1608 0093 746F6E42 		.ascii	"tonBox2026\\HIDJoystick.cydsn\000"
+ 1608      6F783230 
+ 1608      32365C48 
+ 1608      49444A6F 
+ 1608      79737469 
+ 1609              	.LASF40:
+ 1610 00b0 5234525F 		.ascii	"R4R_Read\000"
+ 1610      52656164 
+ 1610      00
+ 1611              	.LASF41:
+ 1612 00b9 52334C5F 		.ascii	"R3L_Read\000"
+ 1612      52656164 
+ 1612      00
+ 1613              	.LASF36:
+ 1614 00c2 43345F52 		.ascii	"C4_Read\000"
+ 1614      65616400 
+ 1615              	.LASF16:
+ 1616 00ca 6C6F6E67 		.ascii	"long double\000"
+ 1616      20646F75 
+ 1616      626C6500 
+ 1617              	.LASF46:
+ 1618 00d6 41485F52 		.ascii	"AH_Read\000"
+ 1618      65616400 
+ 1619              	.LASF27:
+ 1620 00de 4C43445F 		.ascii	"LCD_Char_1_Start\000"
+ 1620      43686172 
+ 1620      5F315F53 
+ 1620      74617274 
+ 1620      00
+ 1621              	.LASF21:
+ 1622 00ef 70696E52 		.ascii	"pinRead\000"
+ 1622      65616400 
+ 1623              	.LASF29:
+ 1624 00f7 4C43445F 		.ascii	"LCD_Char_1_PrintString\000"
+ 1624      43686172 
+ 1624      5F315F50 
+ 1624      72696E74 
+ 1624      53747269 
+ 1625              	.LASF33:
+ 1626 010e 43315F52 		.ascii	"C1_Read\000"
+ 1626      65616400 
+ 1627              	.LASF39:
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 33
 
 
- 1629      7420756E 
- 1629      7369676E 
- 1629      65642069 
- 1629      6E7400
- 1630              	.LASF58:
- 1631 00f8 49544D5F 		.ascii	"ITM_RxBuffer\000"
- 1631      52784275 
- 1631      66666572 
- 1631      00
- 1632              	.LASF31:
- 1633 0105 55534246 		.ascii	"USBFS_1_GetConfiguration\000"
- 1633      535F315F 
- 1633      47657443 
- 1633      6F6E6669 
- 1633      67757261 
- 1634              	.LASF1:
- 1635 011e 756E7369 		.ascii	"unsigned char\000"
- 1635      676E6564 
- 1635      20636861 
- 1635      7200
- 1636              	.LASF14:
- 1637 012c 646F7562 		.ascii	"double\000"
- 1637      6C6500
- 1638              	.LASF51:
- 1639 0133 55335F52 		.ascii	"U3_Read\000"
- 1639      65616400 
- 1640              	.LASF37:
- 1641 013b 43355F52 		.ascii	"C5_Read\000"
- 1641      65616400 
- 1642              	.LASF57:
- 1643 0143 6D61696E 		.ascii	"main\000"
- 1643      00
- 1644              	.LASF56:
- 1645 0148 433A5C55 		.ascii	"C:\\Users\\aztec\\Documents\\HIDGamepad\\test2\\CE1"
- 1645      73657273 
- 1645      5C617A74 
- 1645      65635C44 
- 1645      6F63756D 
- 1646 0175 39353339 		.ascii	"95394_HID_Mouse\\HIDJoystick.cydsn\000"
- 1646      345F4849 
- 1646      445F4D6F 
- 1646      7573655C 
- 1646      4849444A 
+ 1628 0116 52344C5F 		.ascii	"R4L_Read\000"
+ 1628      52656164 
+ 1628      00
+ 1629              	.LASF5:
+ 1630 011f 6C6F6E67 		.ascii	"long unsigned int\000"
+ 1630      20756E73 
+ 1630      69676E65 
+ 1630      6420696E 
+ 1630      7400
+ 1631              	.LASF3:
+ 1632 0131 73686F72 		.ascii	"short unsigned int\000"
+ 1632      7420756E 
+ 1632      7369676E 
+ 1632      65642069 
+ 1632      6E7400
+ 1633              	.LASF58:
+ 1634 0144 49544D5F 		.ascii	"ITM_RxBuffer\000"
+ 1634      52784275 
+ 1634      66666572 
+ 1634      00
+ 1635              	.LASF31:
+ 1636 0151 55534246 		.ascii	"USBFS_1_GetConfiguration\000"
+ 1636      535F315F 
+ 1636      47657443 
+ 1636      6F6E6669 
+ 1636      67757261 
+ 1637              	.LASF1:
+ 1638 016a 756E7369 		.ascii	"unsigned char\000"
+ 1638      676E6564 
+ 1638      20636861 
+ 1638      7200
+ 1639              	.LASF14:
+ 1640 0178 646F7562 		.ascii	"double\000"
+ 1640      6C6500
+ 1641              	.LASF51:
+ 1642 017f 55335F52 		.ascii	"U3_Read\000"
+ 1642      65616400 
+ 1643              	.LASF37:
+ 1644 0187 43355F52 		.ascii	"C5_Read\000"
+ 1644      65616400 
+ 1645              	.LASF57:
+ 1646 018f 6D61696E 		.ascii	"main\000"
+ 1646      00
  1647              	.LASF12:
- 1648 0197 696E7438 		.ascii	"int8\000"
+ 1648 0194 696E7438 		.ascii	"int8\000"
  1648      00
  1649              	.LASF34:
- 1650 019c 43325F52 		.ascii	"C2_Read\000"
+ 1650 0199 43325F52 		.ascii	"C2_Read\000"
  1650      65616400 
  1651              	.LASF47:
- 1652 01a4 414C5F52 		.ascii	"AL_Read\000"
+ 1652 01a1 414C5F52 		.ascii	"AL_Read\000"
  1652      65616400 
  1653              	.LASF8:
- 1654 01ac 756E7369 		.ascii	"unsigned int\000"
+ 1654 01a9 756E7369 		.ascii	"unsigned int\000"
  1654      676E6564 
  1654      20696E74 
  1654      00
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 34
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 34
 
 
  1655              	.LASF7:
- 1656 01b9 6C6F6E67 		.ascii	"long long unsigned int\000"
+ 1656 01b6 6C6F6E67 		.ascii	"long long unsigned int\000"
  1656      206C6F6E 
  1656      6720756E 
  1656      7369676E 
  1656      65642069 
  1657              	.LASF45:
- 1658 01d0 52315F52 		.ascii	"R1_Read\000"
+ 1658 01cd 52315F52 		.ascii	"R1_Read\000"
  1658      65616400 
  1659              	.LASF23:
- 1660 01d8 4A6F7973 		.ascii	"Joystick_Data\000"
+ 1660 01d5 4A6F7973 		.ascii	"Joystick_Data\000"
  1660      7469636B 
  1660      5F446174 
  1660      6100
  1661              	.LASF38:
- 1662 01e6 5357315F 		.ascii	"SW1_Read\000"
+ 1662 01e3 5357315F 		.ascii	"SW1_Read\000"
  1662      52656164 
  1662      00
  1663              	.LASF54:
- 1664 01ef 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
+ 1664 01ec 474E5520 		.ascii	"GNU C11 5.4.1 20160609 (release) [ARM/embedded-5-br"
  1664      43313120 
  1664      352E342E 
  1664      31203230 
  1664      31363036 
- 1665 0222 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
+ 1665 021f 616E6368 		.ascii	"anch revision 237715] -mcpu=cortex-m3 -mthumb -g -O"
  1665      20726576 
  1665      6973696F 
  1665      6E203233 
  1665      37373135 
- 1666 0255 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
+ 1666 0252 67202D66 		.ascii	"g -ffunction-sections -ffat-lto-objects\000"
  1666      66756E63 
  1666      74696F6E 
  1666      2D736563 
  1666      74696F6E 
  1667              	.LASF32:
- 1668 027d 55534246 		.ascii	"USBFS_1_LoadInEP\000"
+ 1668 027a 55534246 		.ascii	"USBFS_1_LoadInEP\000"
  1668      535F315F 
  1668      4C6F6164 
  1668      496E4550 
  1668      00
  1669              	.LASF17:
- 1670 028e 73697A65 		.ascii	"sizetype\000"
+ 1670 028b 73697A65 		.ascii	"sizetype\000"
  1670      74797065 
  1670      00
  1671              	.LASF52:
- 1672 0297 55534246 		.ascii	"USBFS_1_GetEPAckState\000"
+ 1672 0294 55534246 		.ascii	"USBFS_1_GetEPAckState\000"
  1672      535F315F 
  1672      47657445 
  1672      5041636B 
  1672      53746174 
  1673              	.LASF6:
- 1674 02ad 6C6F6E67 		.ascii	"long long int\000"
+ 1674 02aa 6C6F6E67 		.ascii	"long long int\000"
  1674      206C6F6E 
  1674      6720696E 
  1674      7400
  1675              	.LASF55:
- 1676 02bb 6D61696E 		.ascii	"main.c\000"
-ARM GAS  C:\Users\aztec\AppData\Local\Temp\cch9oEAb.s 			page 35
+ 1676 02b8 6D61696E 		.ascii	"main.c\000"
+ARM GAS  C:\Users\funti\AppData\Local\Temp\ccQmvLwN.s 			page 35
 
 
  1676      2E6300
  1677              	.LASF15:
- 1678 02c2 63686172 		.ascii	"char\000"
+ 1678 02bf 63686172 		.ascii	"char\000"
  1678      00
  1679              	.LASF28:
- 1680 02c7 4C43445F 		.ascii	"LCD_Char_1_Position\000"
+ 1680 02c4 4C43445F 		.ascii	"LCD_Char_1_Position\000"
  1680      43686172 
  1680      5F315F50 
  1680      6F736974 
  1680      696F6E00 
  1681              	.LASF22:
- 1682 02db 52656164 		.ascii	"ReadButtons\000"
+ 1682 02d8 52656164 		.ascii	"ReadButtons\000"
  1682      42757474 
  1682      6F6E7300 
  1683              	.LASF10:
- 1684 02e7 696E7433 		.ascii	"int32_t\000"
+ 1684 02e4 696E7433 		.ascii	"int32_t\000"
  1684      325F7400 
  1685              	.LASF2:
- 1686 02ef 73686F72 		.ascii	"short int\000"
+ 1686 02ec 73686F72 		.ascii	"short int\000"
  1686      7420696E 
  1686      7400
  1687              	.LASF11:
- 1688 02f9 75696E74 		.ascii	"uint8\000"
+ 1688 02f6 75696E74 		.ascii	"uint8\000"
  1688      3800
  1689              	.LASF48:
- 1690 02ff 41505F52 		.ascii	"AP_Read\000"
+ 1690 02fc 41505F52 		.ascii	"AP_Read\000"
  1690      65616400 
  1691              	.LASF4:
- 1692 0307 6C6F6E67 		.ascii	"long int\000"
+ 1692 0304 6C6F6E67 		.ascii	"long int\000"
  1692      20696E74 
  1692      00
  1693              	.LASF49:
- 1694 0310 55315F52 		.ascii	"U1_Read\000"
+ 1694 030d 55315F52 		.ascii	"U1_Read\000"
  1694      65616400 
  1695              	.LASF0:
- 1696 0318 7369676E 		.ascii	"signed char\000"
+ 1696 0315 7369676E 		.ascii	"signed char\000"
  1696      65642063 
  1696      68617200 
  1697              	.LASF18:
- 1698 0324 53746172 		.ascii	"StartUp\000"
+ 1698 0321 53746172 		.ascii	"StartUp\000"
  1698      74557000 
  1699              	.LASF19:
- 1700 032c 73657442 		.ascii	"setBit\000"
+ 1700 0329 73657442 		.ascii	"setBit\000"
  1700      697400
  1701              	.LASF20:
- 1702 0333 6269744E 		.ascii	"bitNum\000"
+ 1702 0330 6269744E 		.ascii	"bitNum\000"
  1702      756D00
  1703              	.LASF53:
- 1704 033a 43794465 		.ascii	"CyDelay\000"
+ 1704 0337 43794465 		.ascii	"CyDelay\000"
  1704      6C617900 
  1705              		.ident	"GCC: (GNU Tools for ARM Embedded Processors) 5.4.1 20160609 (release) [ARM/embedded-5-bran

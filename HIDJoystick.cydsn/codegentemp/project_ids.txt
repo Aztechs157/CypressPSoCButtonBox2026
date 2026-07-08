@@ -1,6 +1,6 @@
-C:\Users\aztec\Documents\HIDGamepad\test2\CE195394_HID_Mouse\HIDJoystick.cydsn\HIDJoystick.cyprj|773a927f-8cca-4a62-ac96-992b87b20705
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|2bf6fe3a-c368-4266-ac0a-ee62a188f287
-C:\Users\aztec\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|390096ae-592d-41bc-9dc7-583f5c48f886
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|9b9d15e6-aa12-460b-829c-e1f55c28afa3
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|4f1d1681-9ce4-4d5f-a80a-8e33d80a7403
-C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|1330a5cb-6961-48db-8b55-3d9454dd2e0a
+C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\HIDJoystick.cyprj|18534807-0cf6-4a84-a46d-b5c2d6724698
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\default\CyAnnotationLibrary\CyAnnotationLibrary.cylib\CyAnnotationLibrary.cyprj|4a195f4a-e920-49ab-8382-44fdfdd75853
+C:\Users\funti\OneDrive\Documents\PSoC Creator\4.4\Downloads ( 4.4).cylib\Downloads ( 4.4).cyprj|635b55fb-f14e-4970-945d-c81c70295dac
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibraryupdates\CyComponentLibraryUpdates.cylib\CyComponentLibraryUpdates.cyprj|0322f0c5-4612-4817-a7fb-a1aaeaad53da
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cycomponentlibrary\CyComponentLibrary.cylib\CyComponentLibrary.cyprj|00b91b9d-318e-4681-9a18-1a67190f4044
+C:\Program Files (x86)\Cypress\PSoC Creator\4.4\PSoC Creator\psoc\content\cyprimitives\CyPrimitives.cylib\CyPrimitives.cyprj|6bd33f51-8bb5-47d7-a382-6f63f4844801

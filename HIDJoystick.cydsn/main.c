@@ -11,7 +11,6 @@
 */
 #include <project.h>
 void StartUp (void);
-void ReadJoystick (void);
 void ReadButtons (void);
 void setBit(uint8, uint8);
 static int8 Joystick_Data[3] = {0, 0, 0};
@@ -46,11 +45,6 @@ int main(void)
 void StartUp (void)
 {
  CYGlobalIntEnable;
- LCD_Char_1_Start();
- LCD_Char_1_Position(0,0);
- LCD_Char_1_PrintString("PSoC 3 USB HID");
- LCD_Char_1_Position(1,0);
- LCD_Char_1_PrintString("Joystick Demo");
  /* Activates and configs the USB component */
  USBFS_1_Start(0, USBFS_1_5V_OPERATION);
  /* Waits for configuration data from host */

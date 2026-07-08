@@ -490,7 +490,7 @@ Discarded input sections
  .text.AP_SetDriveMode
                 0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
  .text.AP_ReadDataReg
-                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
+                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
@@ -499,7 +499,7 @@ Discarded input sections
  .text.AL_SetDriveMode
                 0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
  .text.AL_ReadDataReg
-                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
@@ -571,7 +571,7 @@ Discarded input sections
  .text.R2L_SetDriveMode
                 0x00000000       0x18 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
  .text.R2L_ReadDataReg
-                0x00000000       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
+                0x00000000        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
  .text          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
  .data          0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
  .bss           0x00000000        0x0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
@@ -993,10 +993,10 @@ END GROUP
                 0x00001ba8                C4_Read
  .text.C5_Read  0x00001bb8       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C5.o)
                 0x00001bb8                C5_Read
- .text.AP_Read  0x00001bc8        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
+ .text.AP_Read  0x00001bc8       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
                 0x00001bc8                AP_Read
- .text.AL_Read  0x00001bd4       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
-                0x00001bd4                AL_Read
+ .text.AL_Read  0x00001bd8        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
+                0x00001bd8                AL_Read
  .text.AH_Read  0x00001be4       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
                 0x00001be4                AH_Read
  .text.SW1_Read
@@ -1018,16 +1018,17 @@ END GROUP
                 0x00001c40       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2R.o)
                 0x00001c40                R2R_Read
  .text.R2L_Read
-                0x00001c50       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
+                0x00001c50        0xc .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
                 0x00001c50                R2L_Read
- .text.R1_Read  0x00001c60       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
-                0x00001c60                R1_Read
- .text.U3_Read  0x00001c70       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U3.o)
-                0x00001c70                U3_Read
- .text.U1_Read  0x00001c80       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U1.o)
-                0x00001c80                U1_Read
- .text.U2_Read  0x00001c90       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U2.o)
-                0x00001c90                U2_Read
+ .text.R1_Read  0x00001c5c       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
+                0x00001c5c                R1_Read
+ .text.U3_Read  0x00001c6c       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U3.o)
+                0x00001c6c                U3_Read
+ .text.U1_Read  0x00001c7c       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U1.o)
+                0x00001c7c                U1_Read
+ .text.U2_Read  0x00001c8c       0x10 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U2.o)
+                0x00001c8c                U2_Read
+ *fill*         0x00001c9c        0x4 
  .text          0x00001ca0       0x20 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyBootAsmGnu.o)
                 0x00001ca0                CyDelayCycles
                 0x00001cb0                CyEnterCriticalSection
@@ -1258,9 +1259,9 @@ END GROUP
 .cyloadablemeta
  *(.cyloadablemeta)
 
-.cyconfigecc    0x80000000       0x88
+.cyconfigecc    0x80000000       0x8c
  *(.cyconfigecc)
- .cyconfigecc   0x80000000       0x88 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .cyconfigecc   0x80000000       0x8c .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
                 0x80000000                cy_meta_configecc
 
 .cycustnvl      0x90000000        0x4
@@ -1394,7 +1395,7 @@ END GROUP
 .debug_pubnames
  *(.debug_pubnames)
 
-.debug_info     0x00000000     0x80b1
+.debug_info     0x00000000     0x80ae
  *(.debug_info .gnu.linkonce.wi.*)
  .debug_info    0x00000000      0x5d1 .\CortexM3\ARM_GCC_541\Debug\main.o
  .debug_info    0x000005d1      0x516 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
@@ -1430,11 +1431,11 @@ END GROUP
  .debug_info    0x00006b9d      0x11f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U3.o)
  .debug_info    0x00006cbc      0x11f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U1.o)
  .debug_info    0x00006ddb      0x11f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U2.o)
- .debug_info    0x00006efa       0x9d .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyBootAsmGnu.o)
- .debug_info    0x00006f97      0x1de .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
- .debug_info    0x00007175      0x39f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
- .debug_info    0x00007514      0x64d .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
- .debug_info    0x00007b61      0x550 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
+ .debug_info    0x00006efa       0x9a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyBootAsmGnu.o)
+ .debug_info    0x00006f94      0x1de .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
+ .debug_info    0x00007172      0x39f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
+ .debug_info    0x00007511      0x64d .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
+ .debug_info    0x00007b5e      0x550 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
 
 .debug_abbrev   0x00000000     0x2461
  *(.debug_abbrev)
@@ -1564,84 +1565,84 @@ END GROUP
  .debug_frame   0x00001d98       0x28 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memcpy-stub.o)
  .debug_frame   0x00001dc0       0x20 c:/program files (x86)/cypress/psoc creator/4.4/psoc creator/import/gnu/arm/5.4.1/bin/../lib/gcc/arm-none-eabi/5.4.1/../../../../arm-none-eabi/lib/armv7-m\libg_nano.a(lib_a-memset.o)
 
-.debug_str      0x00000000     0x2a32
+.debug_str      0x00000000     0x2a2f
  *(.debug_str)
- .debug_str     0x00000000      0x2f5 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_str     0x00000000      0x2f2 .\CortexM3\ARM_GCC_541\Debug\main.o
+                                0x33f (size before relaxing)
+ .debug_str     0x000002f2      0x181 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+                                0x319 (size before relaxing)
+ .debug_str     0x00000473       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+                                0x1ee (size before relaxing)
+ .debug_str     0x000004f2      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+                                0x314 (size before relaxing)
+ .debug_str     0x00000636      0x1d1 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(LCD_Char_1.o)
+                                0x3c1 (size before relaxing)
+ .debug_str     0x00000807      0x461 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1.o)
+                                0x688 (size before relaxing)
+ .debug_str     0x00000c68      0x35a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_drv.o)
+                                0x652 (size before relaxing)
+ .debug_str     0x00000fc2       0x4e .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_episr.o)
+                                0x2b7 (size before relaxing)
+ .debug_str     0x00001010      0x13a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_hid.o)
+                                0x40c (size before relaxing)
+ .debug_str     0x0000114a       0xc6 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_pm.o)
+                                0x2fa (size before relaxing)
+ .debug_str     0x00001210      0x208 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_std.o)
+                                0x72a (size before relaxing)
+ .debug_str     0x00001418       0x25 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_vnd.o)
+                                0x1f7 (size before relaxing)
+ .debug_str     0x0000143d       0xa4 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_Dp.o)
+                                0x24b (size before relaxing)
+ .debug_str     0x000014e1      0x7e1 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyLib.o)
+                                0xa51 (size before relaxing)
+ .debug_str     0x00001cc2      0x365 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(cyPm.o)
+                                0x73d (size before relaxing)
+ .debug_str     0x00002027       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C1.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x0000206b       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C2.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x000020af       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C3.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x000020f3       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C4.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x00002137       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C5.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x0000217b       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x000021bf       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x00002203       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x00002247       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW1.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x0000228f       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R4L.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x000022d7       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R3L.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x0000231f       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R4R.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x00002367       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R3R.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x000023af       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2R.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x000023f7       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
+                                0x1e2 (size before relaxing)
+ .debug_str     0x0000243f       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x00002483       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U3.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x000024c7       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U1.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x0000250b       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U2.o)
+                                0x1dd (size before relaxing)
+ .debug_str     0x0000254f       0x25 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
+                                0x2b6 (size before relaxing)
+ .debug_str     0x00002574      0x254 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
+                                0x4c6 (size before relaxing)
+ .debug_str     0x000027c8      0x1bb .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
+                                0x3ca (size before relaxing)
+ .debug_str     0x00002983       0xac .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
                                 0x342 (size before relaxing)
- .debug_str     0x000002f5      0x181 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
-                                0x31c (size before relaxing)
- .debug_str     0x00000476       0x7f .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
-                                0x1f1 (size before relaxing)
- .debug_str     0x000004f5      0x144 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
-                                0x317 (size before relaxing)
- .debug_str     0x00000639      0x1d1 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(LCD_Char_1.o)
-                                0x3c4 (size before relaxing)
- .debug_str     0x0000080a      0x461 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1.o)
-                                0x68b (size before relaxing)
- .debug_str     0x00000c6b      0x35a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_drv.o)
-                                0x655 (size before relaxing)
- .debug_str     0x00000fc5       0x4e .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_episr.o)
-                                0x2ba (size before relaxing)
- .debug_str     0x00001013      0x13a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_hid.o)
-                                0x40f (size before relaxing)
- .debug_str     0x0000114d       0xc6 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_pm.o)
-                                0x2fd (size before relaxing)
- .debug_str     0x00001213      0x208 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_std.o)
-                                0x72d (size before relaxing)
- .debug_str     0x0000141b       0x25 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_vnd.o)
-                                0x1fa (size before relaxing)
- .debug_str     0x00001440       0xa4 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_Dp.o)
-                                0x24e (size before relaxing)
- .debug_str     0x000014e4      0x7e1 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyLib.o)
-                                0xa54 (size before relaxing)
- .debug_str     0x00001cc5      0x365 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(cyPm.o)
-                                0x740 (size before relaxing)
- .debug_str     0x0000202a       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C1.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x0000206e       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C2.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x000020b2       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C3.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x000020f6       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C4.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x0000213a       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(C5.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x0000217e       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AP.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x000021c2       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AL.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x00002206       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(AH.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x0000224a       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW1.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x00002292       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R4L.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x000022da       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R3L.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x00002322       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R4R.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x0000236a       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R3R.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x000023b2       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2R.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x000023fa       0x48 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R2L.o)
-                                0x1e5 (size before relaxing)
- .debug_str     0x00002442       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(R1.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x00002486       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U3.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x000024ca       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U1.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x0000250e       0x44 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(U2.o)
-                                0x1e0 (size before relaxing)
- .debug_str     0x00002552       0x25 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
-                                0x2b9 (size before relaxing)
- .debug_str     0x00002577      0x254 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
-                                0x4c9 (size before relaxing)
- .debug_str     0x000027cb      0x1bb .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
-                                0x3cd (size before relaxing)
- .debug_str     0x00002986       0xac .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
-                                0x345 (size before relaxing)
 
 .debug_loc      0x00000000     0x35f0
  *(.debug_loc)
@@ -1884,4 +1885,4 @@ END GROUP
 
 /DISCARD/
  *(.note.GNU-stack)
-OUTPUT(C:\Users\aztec\Documents\HIDGamepad\test2\CE195394_HID_Mouse\HIDJoystick.cydsn\CortexM3\ARM_GCC_541\Debug\HIDJoystick.elf elf32-littlearm)
+OUTPUT(C:\Users\funti\Robotics Projects\CypressPSoCButtonBox2026\HIDJoystick.cydsn\CortexM3\ARM_GCC_541\Debug\HIDJoystick.elf elf32-littlearm)
