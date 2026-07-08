@@ -1275,37 +1275,37 @@ END GROUP
  .debug_abbrev  0x00001abf      0x1a7 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
  .debug_abbrev  0x00001c66      0x194 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
 
-.debug_line     0x00000000     0x2b30
+.debug_line     0x00000000     0x2b2e
  *(.debug_line)
- .debug_line    0x00000000      0x243 .\CortexM3\ARM_GCC_541\Debug\main.o
- .debug_line    0x00000243      0x1d0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
- .debug_line    0x00000413      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
- .debug_line    0x00000554      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
- .debug_line    0x00000788      0x2f0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1.o)
- .debug_line    0x00000a78      0x221 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_drv.o)
- .debug_line    0x00000c99       0x9f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_episr.o)
- .debug_line    0x00000d38      0x14f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_hid.o)
- .debug_line    0x00000e87      0x10e .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_pm.o)
- .debug_line    0x00000f95      0x36c .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_std.o)
- .debug_line    0x00001301       0x73 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_vnd.o)
- .debug_line    0x00001374       0xbb .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_Dp.o)
- .debug_line    0x0000142f      0x816 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyLib.o)
- .debug_line    0x00001c45      0x367 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(cyPm.o)
- .debug_line    0x00001fac       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_5.o)
- .debug_line    0x0000203e       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_4.o)
- .debug_line    0x000020d0       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_3.o)
- .debug_line    0x00002162       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_2.o)
- .debug_line    0x000021f4       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_1.o)
- .debug_line    0x00002286       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_D.o)
- .debug_line    0x00002317       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_C.o)
- .debug_line    0x000023a8       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_B.o)
- .debug_line    0x00002439       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_A.o)
- .debug_line    0x000024ca       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_6.o)
- .debug_line    0x0000255c       0x66 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyBootAsmGnu.o)
- .debug_line    0x000025c2       0x93 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
- .debug_line    0x00002655       0x61 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
- .debug_line    0x000026b6      0x21a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
- .debug_line    0x000028d0      0x260 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
+ .debug_line    0x00000000      0x241 .\CortexM3\ARM_GCC_541\Debug\main.o
+ .debug_line    0x00000241      0x1d0 .\CortexM3\ARM_GCC_541\Debug\cyfitter_cfg.o
+ .debug_line    0x00000411      0x141 .\CortexM3\ARM_GCC_541\Debug\cymetadata.o
+ .debug_line    0x00000552      0x234 .\CortexM3\ARM_GCC_541\Debug\Cm3Start.o
+ .debug_line    0x00000786      0x2f0 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1.o)
+ .debug_line    0x00000a76      0x221 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_drv.o)
+ .debug_line    0x00000c97       0x9f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_episr.o)
+ .debug_line    0x00000d36      0x14f .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_hid.o)
+ .debug_line    0x00000e85      0x10e .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_pm.o)
+ .debug_line    0x00000f93      0x36c .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_std.o)
+ .debug_line    0x000012ff       0x73 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_vnd.o)
+ .debug_line    0x00001372       0xbb .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_Dp.o)
+ .debug_line    0x0000142d      0x816 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyLib.o)
+ .debug_line    0x00001c43      0x367 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(cyPm.o)
+ .debug_line    0x00001faa       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_5.o)
+ .debug_line    0x0000203c       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_4.o)
+ .debug_line    0x000020ce       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_3.o)
+ .debug_line    0x00002160       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_2.o)
+ .debug_line    0x000021f2       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_1.o)
+ .debug_line    0x00002284       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_D.o)
+ .debug_line    0x00002315       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_C.o)
+ .debug_line    0x000023a6       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_B.o)
+ .debug_line    0x00002437       0x91 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(SW_A.o)
+ .debug_line    0x000024c8       0x92 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(BTN_6.o)
+ .debug_line    0x0000255a       0x66 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyBootAsmGnu.o)
+ .debug_line    0x000025c0       0x93 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_cls.o)
+ .debug_line    0x00002653       0x61 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(USBFS_1_descr.o)
+ .debug_line    0x000026b4      0x21a .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CyFlash.o)
+ .debug_line    0x000028ce      0x260 .\CortexM3\ARM_GCC_541\Debug\HIDJoystick.a(CySpc.o)
 
 .debug_frame    0x00000000     0x1928
  *(.debug_frame)
